@@ -1,0 +1,20 @@
+{
+  "build": {
+    "command": "npm run build",
+    "cwd": "portfolio-website"
+  },
+  "env": {
+    "production": {
+      "name": "richard-portfolio-prod",
+      "routes": [
+        {
+          "pattern": "richardjdli.com/*",
+          "zone_name": "richardjdli.com"
+        }
+      ]
+    },
+    "preview": {
+      "name": "richard-portfolio-preview"
+    }
+  }
+}
