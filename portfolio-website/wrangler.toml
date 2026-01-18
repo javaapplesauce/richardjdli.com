@@ -1,0 +1,20 @@
+name = "richard-portfolio"
+main = "dist/index.js"
+compatibility_date = "2024-01-01"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_paths = ["src/**/*.ts", "src/**/*.tsx"]
+
+[build.upload]
+format = "service-worker"
+
+[env.production]
+name = "richard-portfolio-prod"
+routes = [
+  { pattern = "richardjdli.com/*", zone_name = "richardjdli.com" }
+]
+
+[env.staging]
+name = "richard-portfolio-staging"
