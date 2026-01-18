@@ -1,0 +1,9 @@
+compatibility_date = "2024-01-01"
+pages_build_output_dir = ".next"
+
+[build]
+command = "npm run build"
+cwd = "portfolio-website"
+
+[env.production]
+name = "richard-portfolio-prod"
