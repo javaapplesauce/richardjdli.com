@@ -81,37 +81,55 @@ export default function Home() {
         <div className="max-w-2xl">
           <PopUpElement>
             <TimelineItem
-              year="Jan 2025"
-              title="ML Engineer Intern @ Orion Labs"
-              description="Spearheaded development of a novel pipeline integrating vision-language models with RAG systems to extract structured insights from unlabeled data."
-              icon="🤖"
+              year="Nov 2025"
+              title="Software Engineer Intern @ Bite Campus Eats — New York, NY"
+              description={`Backend/API Software Engineer. Research algorithmic surge pricing in large food delivery companies.`}
+              icon="🍔"
             />
           </PopUpElement>
 
           <PopUpElement delay={1}>
             <TimelineItem
-              year="Aug 2024"
-              title="Machine Learning Research Intern @ Columbia University"
-              description="Developed and optimized a text-to-audio diffusion model achieving 85% accuracy on the WaveNet objective; contributed technical blog post read by 1000+ practitioners in ML community."
-              icon="🔬"
+              year="Sep 2025"
+              title="AI Research Intern @ Toonsutra — Bellevue, WA"
+              description={`Research the use of Vision Language Models to increase the accuracy of comic-book translation for four south-Asian dialects.`}
+              icon="🖼️"
             />
           </PopUpElement>
 
           <PopUpElement delay={2}>
             <TimelineItem
-              year="May 2024"
-              title="Software Engineer Intern @ Pluto Finance"
-              description="Architected and deployed web-based 3D financial visualization platform using React and Three.js, enabling users to explore financial market data through interactive 3D interface."
-              icon="💡"
+              year="Jun 2025"
+              title="Research Intern @ Microsoft — Redmond, WA"
+              description={`Researched the use of custom semantic linear classifiers for improving zero-shot model prediction.`}
+              icon="💻"
             />
           </PopUpElement>
 
           <PopUpElement delay={3}>
             <TimelineItem
-              year="Jun 2023"
-              title="Research Intern @ Stony Brook University"
-              description="Implemented GPU-accelerated custom kernels in CUDA C++ achieving 87% peak performance on NVIDIA V100 for accelerated machine learning computations."
-              icon="🚀"
+              year="Jan 2023"
+              title="Bioinformatics & Data Analyst Intern @ University of Washington, Department of Medicine — Seattle, WA"
+              description={`Conducted research characterizing infection dynamics within the macaque placenta and fetal brain.`}
+              icon="🧬"
+            />
+          </PopUpElement>
+
+          <PopUpElement delay={4}>
+            <TimelineItem
+              year="2023"
+              title="Research Assistant @ Department of Geological and Planetary Sciences — Pasadena, CA"
+              description={`Researched use of Monte Carlo Markov Chains in adjusting NO2 Satellite readings for atmospheric factors (’23). Created a novel algorithm to predict and monitor spread of wildfires using satellite data (’22).`}
+              icon="🌍"
+            />
+          </PopUpElement>
+
+          <PopUpElement delay={5}>
+            <TimelineItem
+              year="Jun 2022"
+              title="Intern @ Clobotics Wind Services — Bellevue, WA"
+              description={`Gained experience applying neural networks for analyzing wind turbine quality datasets.`}
+              icon="�️"
             />
           </PopUpElement>
         </div>
